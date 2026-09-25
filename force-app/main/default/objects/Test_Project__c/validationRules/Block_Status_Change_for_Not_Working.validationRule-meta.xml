@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Block_Status_Change_for_Not_Working</fullName>
+    <active>true</active>
+    <errorConditionFormula>Active__c  &amp;&amp; ISPICKVAL( Project_Status__c , &apos;Not Working&apos;)</errorConditionFormula>
+    <errorDisplayField>Project_Status__c</errorDisplayField>
+    <errorMessage>Cannot set status to Not Working while active</errorMessage>
+</ValidationRule>
