@@ -1,0 +1,35 @@
+{
+  "required" : [ ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "fieldName" : {
+      "title" : "fieldName",
+      "description" : "API name of the Lead field to filter on, e.g. Email, LastName, Id. Leave blank to return records unfiltered.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "fieldValue" : {
+      "title" : "fieldValue",
+      "description" : "Value to match against fieldName.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "maxRecords" : {
+      "title" : "maxRecords",
+      "description" : "",
+      "lightning:type" : "lightning__integerType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "operatorType" : {
+      "title" : "operatorType",
+      "description" : "Comparison operator: =, !=, or LIKE. Defaults to = if not provided.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}
