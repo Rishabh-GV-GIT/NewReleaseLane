@@ -2,6 +2,16 @@
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
     <apiVersion>62.0</apiVersion>
     <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <customErrors>
+        <name>Test_Error</name>
+        <label>Test Error</label>
+        <locationX>314</locationX>
+        <locationY>276</locationY>
+        <customErrorMessages>
+            <errorMessage>Error</errorMessage>
+            <isFieldError>false</isFieldError>
+        </customErrorMessages>
+    </customErrors>
     <description>Top layer (Flow -&gt; Subflow -&gt; Apex -&gt; Custom Metadata). v1: writes &quot;v1|Tier|Percent|FinalAmount&quot; into Description.</description>
     <environments>Default</environments>
     <formulas>
@@ -27,8 +37,8 @@
     <recordUpdates>
         <name>Update_Account</name>
         <label>Update Account</label>
-        <locationX>176</locationX>
-        <locationY>431</locationY>
+        <locationX>50</locationX>
+        <locationY>384</locationY>
         <filterLogic>and</filterLogic>
         <filters>
             <field>Id</field>
@@ -46,7 +56,7 @@
         <object>Account</object>
     </recordUpdates>
     <start>
-        <locationX>50</locationX>
+        <locationX>56</locationX>
         <locationY>0</locationY>
         <connector>
             <targetReference>Calculate_Discount</targetReference>
@@ -54,14 +64,25 @@
         <filterFormula>AND(ISCHANGED({!$Record.AnnualRevenue}), NOT(ISBLANK({!$Record.AnnualRevenue})))</filterFormula>
         <object>Account</object>
         <recordTriggerType>Update</recordTriggerType>
+        <scheduledPaths>
+            <name>Schedule_path</name>
+            <connector>
+                <targetReference>Test_Error</targetReference>
+            </connector>
+            <label>Schedule path</label>
+            <offsetNumber>1</offsetNumber>
+            <offsetUnit>Days</offsetUnit>
+            <recordField>LastModifiedDate</recordField>
+            <timeSource>RecordField</timeSource>
+        </scheduledPaths>
         <triggerType>RecordAfterSave</triggerType>
     </start>
     <status>Active</status>
     <subflows>
         <name>Calculate_Discount</name>
         <label>Calculate Discount</label>
-        <locationX>176</locationX>
-        <locationY>323</locationY>
+        <locationX>50</locationX>
+        <locationY>276</locationY>
         <connector>
             <targetReference>Update_Account</targetReference>
         </connector>
