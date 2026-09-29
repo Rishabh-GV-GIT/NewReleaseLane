@@ -1,0 +1,41 @@
+{
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "accountDetails" : {
+      "title" : "accountDetails",
+      "description" : "This variable contains all the details for the account.",
+      "lightning:type" : "lightning__recordInfoType",
+      "lightning:sObjectInfo" : {
+        "apiName" : "Account"
+      },
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : false,
+      "copilotAction:isUsedByPlanner" : true
+    },
+    "relatedCases" : {
+      "title" : "relatedCases",
+      "description" : "This variable represents the cases related to account.",
+      "maxItems" : 2000,
+      "items" : {
+        "lightning:type" : "lightning__recordInfoType"
+      },
+      "lightning:type" : "lightning__listType",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : false,
+      "copilotAction:isUsedByPlanner" : true
+    },
+    "relatedOpportunities" : {
+      "title" : "relatedOpportunities",
+      "description" : "This variable shows the opportunities related to the account.",
+      "maxItems" : 2000,
+      "items" : {
+        "lightning:type" : "lightning__recordInfoType"
+      },
+      "lightning:type" : "lightning__listType",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : false,
+      "copilotAction:isUsedByPlanner" : true
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}
