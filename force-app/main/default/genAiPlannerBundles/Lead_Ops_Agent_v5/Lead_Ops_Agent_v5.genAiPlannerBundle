@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPlannerBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>New agent description</description>
+    <localTopicLinks>
+        <genAiPluginName>Lead_Management_16jak000003LfJN</genAiPluginName>
+    </localTopicLinks>
+    <localTopicLinks>
+        <genAiPluginName>agent_router_16jak000003LfJN</genAiPluginName>
+    </localTopicLinks>
+    <localTopicLinks>
+        <genAiPluginName>ambiguous_question_16jak000003LfJN</genAiPluginName>
+    </localTopicLinks>
+    <localTopicLinks>
+        <genAiPluginName>escalation_16jak000003LfJN</genAiPluginName>
+    </localTopicLinks>
+    <localTopicLinks>
+        <genAiPluginName>off_topic_16jak000003LfJN</genAiPluginName>
+    </localTopicLinks>
+    <localTopics>
+        <fullName>agent_router_16jak000003LfJN</fullName>
+        <canEscalate>false</canEscalate>
+        <description>Welcome the user and determine the appropriate subagent based on user input</description>
+        <developerName>agent_router_16jak000003LfJN</developerName>
+        <genAiPluginInstructions>
+            <description>You are an AI Agent.
+
+{{state.AgentScriptInternal_agent_instructions}}</description>
+            <developerName>instruction0_179ak0000055m61</developerName>
+            <language>en_US</language>
+            <masterLabel>instruction0_179ak0000055m61</masterLabel>
+            <sortOrder>1</sortOrder>
+        </genAiPluginInstructions>
+        <language>en_US</language>
+        <localDeveloperName>agent_router</localDeveloperName>
+        <masterLabel>Agent Router</masterLabel>
+        <pluginType>Topic</pluginType>
+    </localTopics>
+    <localTopics>
+        <fullName>off_topic_16jak000003LfJN</fullName>
+        <canEscalate>false</canEscalate>
+        <description>Redirect conversation to relevant topics when user request goes off-topic</description>
+        <developerName>off_topic_16jak000003LfJN</developerName>
+        <genAiPluginInstructions>
+            <description>You are an AI Agent.</description>
+            <developerName>instruction0_179ak0000055m60</developerName>
+            <language>en_US</language>
+            <masterLabel>instruction0_179ak0000055m60</masterLabel>
+            <sortOrder>1</sortOrder>
+        </genAiPluginInstructions>
+        <language>en_US</language>
+        <localDeveloperName>off_topic</localDeveloperName>
+        <masterLabel>Off Topic</masterLabel>
+        <pluginType>Topic</pluginType>
+    </localTopics>
+    <localTopics>
+        <fullName>escalation_16jak000003LfJN</fullName>
+        <canEscalate>false</canEscalate>
+        <description>Handles requests from users who want to transfer or escalate their conversation to a live human agent.</description>
+        <developerName>escalation_16jak000003LfJN</developerName>
+        <genAiPluginInstructions>
+            <description>You are an AI Agent.</description>
+            <developerName>instruction0_179ak0000055m5z</developerName>
+            <language>en_US</language>
+            <masterLabel>instruction0_179ak0000055m5z</masterLabel>
+            <sortOrder>1</sortOrder>
+        </genAiPluginInstructions>
+        <language>en_US</language>
+        <localDeveloperName>escalation</localDeveloperName>
+        <masterLabel>Escalation</masterLabel>
+        <pluginType>Topic</pluginType>
+    </localTopics>
+    <localTopics>
+        <fullName>Lead_Management_16jak000003LfJN</fullName>
+        <canEscalate>false</canEscalate>
+        <description>Handles requests to create, look up, update, or delete a Lead record.</description>
+        <developerName>Lead_Management_16jak000003LfJN</developerName>
+        <genAiPluginInstructions>
+            <description>You are an AI Agent.</description>
+            <developerName>instruction0_179ak0000055m5y</developerName>
+            <language>en_US</language>
+            <masterLabel>instruction0_179ak0000055m5y</masterLabel>
+            <sortOrder>1</sortOrder>
+        </genAiPluginInstructions>
+        <language>en_US</language>
+        <localActionLinks>
+            <functionName>Create_Lead_179ak0000055m5y</functionName>
+        </localActionLinks>
+        <localActionLinks>
+            <functionName>Update_Lead_179ak0000055m5y</functionName>
+        </localActionLinks>
+        <localActionLinks>
+            <functionName>Delete_Lead_179ak0000055m5y</functionName>
+        </localActionLinks>
+        <localActionLinks>
+            <functionName>Get_Leads_179ak0000055m5y</functionName>
+        </localActionLinks>
+        <localActions>
+            <fullName>Update_Lead_179ak0000055m5y</fullName>
+            <description>Updates an existing Lead by Id. Use when the user wants to change a specific field on a Lead that has already been identified — for example changing a title, phone number, or website. Requires the Lead&apos;s Id; use the Get Leads action first if the correct record isn&apos;t already known.</description>
+            <developerName>Update_Lead_179ak0000055m5y</developerName>
+            <invocationTarget>LeadMcpUpdate</invocationTarget>
+            <invocationTargetType>apex</invocationTargetType>
+            <isConfirmationRequired>false</isConfirmationRequired>
+            <isIncludeInProgressIndicator>false</isIncludeInProgressIndicator>
+            <localDeveloperName>Update_Lead</localDeveloperName>
+            <masterLabel>Update Lead</masterLabel>
+        </localActions>
+        <localActions>
+            <fullName>Create_Lead_179ak0000055m5y</fullName>
+            <description>Creates a new Lead in Salesforce. Requires the user&apos;s real first name, last name, and email — never invent, guess, or substitute a placeholder for these. If any is missing, ask the user directly and wait for their answer before calling this action. Lead Source is set automatically to &apos;Agent&apos; and should not be asked about.</description>
+            <developerName>Create_Lead_179ak0000055m5y</developerName>
+            <invocationTarget>AgentLeadCreate</invocationTarget>
+            <invocationTargetType>apex</invocationTargetType>
+            <isConfirmationRequired>false</isConfirmationRequired>
+            <isIncludeInProgressIndicator>false</isIncludeInProgressIndicator>
+            <localDeveloperName>Create_Lead</localDeveloperName>
+            <masterLabel>Create Lead</masterLabel>
+        </localActions>
+        <localActions>
+            <fullName>Get_Leads_179ak0000055m5y</fullName>
+            <description>Get Leads</description>
+            <developerName>Get_Leads_179ak0000055m5y</developerName>
+            <invocationTarget>LeadMcpGet</invocationTarget>
+            <invocationTargetType>apex</invocationTargetType>
+            <isConfirmationRequired>false</isConfirmationRequired>
+            <isIncludeInProgressIndicator>false</isIncludeInProgressIndicator>
+            <localDeveloperName>Get_Leads</localDeveloperName>
+            <masterLabel>Get Leads</masterLabel>
+        </localActions>
+        <localActions>
+            <fullName>Delete_Lead_179ak0000055m5y</fullName>
+            <description>Deletes a Lead record by Id. Use only when the user explicitly confirms they want a specific Lead permanently removed.</description>
+            <developerName>Delete_Lead_179ak0000055m5y</developerName>
+            <invocationTarget>LeadMcpDelete</invocationTarget>
+            <invocationTargetType>apex</invocationTargetType>
+            <isConfirmationRequired>false</isConfirmationRequired>
+            <isIncludeInProgressIndicator>false</isIncludeInProgressIndicator>
+            <localDeveloperName>Delete_Lead</localDeveloperName>
+            <masterLabel>Delete Lead</masterLabel>
+        </localActions>
+        <localDeveloperName>Lead_Management</localDeveloperName>
+        <masterLabel>Lead Management</masterLabel>
+        <pluginType>Topic</pluginType>
+    </localTopics>
+    <localTopics>
+        <fullName>ambiguous_question_16jak000003LfJN</fullName>
+        <canEscalate>false</canEscalate>
+        <description>Redirect conversation to relevant topics when user request is too ambiguous</description>
+        <developerName>ambiguous_question_16jak000003LfJN</developerName>
+        <genAiPluginInstructions>
+            <description>You are an AI Agent.</description>
+            <developerName>instruction0_179ak0000055m5x</developerName>
+            <language>en_US</language>
+            <masterLabel>instruction0_179ak0000055m5x</masterLabel>
+            <sortOrder>1</sortOrder>
+        </genAiPluginInstructions>
+        <language>en_US</language>
+        <localDeveloperName>ambiguous_question</localDeveloperName>
+        <masterLabel>Ambiguous Question</masterLabel>
+        <pluginType>Topic</pluginType>
+    </localTopics>
+    <masterLabel>Lead Ops Agent</masterLabel>
+    <plannerType>Atlas__ConcurrentMultiAgentOrchestration</plannerType>
+</GenAiPlannerBundle>
