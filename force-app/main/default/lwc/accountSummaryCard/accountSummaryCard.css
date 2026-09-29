@@ -1,0 +1,9 @@
+.summary p {
+    margin-bottom: 0.25rem;
+}
+.name {
+    font-weight: bold;
+}
+.error {
+    color: #ba0517;
+}

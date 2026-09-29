@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Acct_Summary_Contacts</fullName>
+        <categories>AccountSummary</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Acct Summary Contacts</shortDescription>
+        <value>Contacts</value>
+    </labels>
+    <labels>
+        <fullName>Acct_Summary_Error</fullName>
+        <categories>AccountSummary</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Acct Summary Error</shortDescription>
+        <value>We could not load this account summary.</value>
+    </labels>
+    <labels>
+        <fullName>Acct_Summary_Industry</fullName>
+        <categories>AccountSummary</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Acct Summary Industry</shortDescription>
+        <value>Industry</value>
+    </labels>
+    <labels>
+        <fullName>Acct_Summary_Revenue</fullName>
+        <categories>AccountSummary</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Acct Summary Revenue</shortDescription>
+        <value>Revenue &amp; Size</value>
+    </labels>
+    <labels>
+        <fullName>Acct_Summary_Title</fullName>
+        <categories>AccountSummary</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Acct Summary Title</shortDescription>
+        <value>Account Summary</value>
+    </labels>
+</CustomLabels>
