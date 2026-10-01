@@ -1,0 +1,21 @@
+{
+  "fields": {
+    "CPQ_Test_Ext_Id__c": null,
+    "IsActive": true,
+    "Pricebook2Id": {
+      "$ref": "Pricebook2",
+      "identity": "standard"
+    },
+    "Product2Id": {
+      "$ref": "Product2",
+      "identity": "01tak00000X0z8XAAR"
+    },
+    "UnitPrice": 1000,
+    "UseStandardPrice": false
+  },
+  "format": 1,
+  "identity": "01uak000009j32zAAA",
+  "identitySource": "field",
+  "name": "DumpIt Test Product",
+  "object": "PricebookEntry"
+}

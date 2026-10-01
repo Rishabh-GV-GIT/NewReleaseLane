@@ -1,0 +1,34 @@
+{
+  "fields": {
+    "Name": "Amend Subscriptions",
+    "SBQQ__Action__c": "Amend Subscriptions",
+    "SBQQ__Active__c": true,
+    "SBQQ__BrandButton__c": false,
+    "SBQQ__Class__c": "amendSubscriptionsBtn",
+    "SBQQ__ConditionsMet__c": "All",
+    "SBQQ__Default__c": false,
+    "SBQQ__Description__c": null,
+    "SBQQ__DisplayOrder__c": 901,
+    "SBQQ__EventHandlerName__c": "onAmendSubscriptions",
+    "SBQQ__IconClass__c": null,
+    "SBQQ__Icon__c": null,
+    "SBQQ__Label__c": "Amend Subscriptions",
+    "SBQQ__Location__c": "Quote/Group",
+    "SBQQ__PageHandlerName__c": null,
+    "SBQQ__Page__c": "Quote Line Editor",
+    "SBQQ__ParentCustomAction__c": {
+      "$ref": "SBQQ__CustomAction__c",
+      "identity": "a0Aak00000GX6aAEAT"
+    },
+    "SBQQ__ReturnURL__c": null,
+    "SBQQ__TargetObject__c": null,
+    "SBQQ__Type__c": "Button",
+    "SBQQ__URLTarget__c": null,
+    "SBQQ__URL__c": null
+  },
+  "format": 1,
+  "identity": "a0Aak00000GX6agEAD",
+  "identitySource": "field",
+  "name": "Amend Subscriptions",
+  "object": "SBQQ__CustomAction__c"
+}
