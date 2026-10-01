@@ -1,15 +1,15 @@
 {
   "fields": {
     "CPQ_Test_Ext_Id__c": null,
-    "Description": "Two-day administrator training",
+    "Description": "On-site edge gateway appliance",
     "DisplayUrl": null,
     "ExternalId": null,
-    "Family": "Services",
+    "Family": "Hardware",
     "IsActive": true,
-    "Launch_Date__c": "2025-01-15",
-    "Name": "Admin Training",
-    "ProductCode": "SAMPLE-TRN",
-    "Product_Tier__c": "Standard",
+    "Launch_Date__c": "2026-06-01",
+    "Name": "Edge Gateway Device",
+    "ProductCode": "SAMPLE-HW",
+    "Product_Tier__c": "Premium",
     "QuantityUnitOfMeasure": null,
     "SBQQ__AssetAmendmentBehavior__c": "Default",
     "SBQQ__AssetConversion__c": "One per quote line",
@@ -88,8 +88,8 @@
     "blng__TaxRule__c": null
   },
   "format": 1,
-  "identity": "01tak00000WzmWoAAJ",
+  "identity": "01tak00000X1DQ1AAN",
   "identitySource": "field",
-  "name": "Admin Training",
+  "name": "Edge Gateway Device",
   "object": "Product2"
 }

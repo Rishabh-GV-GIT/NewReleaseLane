@@ -1,5 +1,6 @@
 {
   "fields": {
+    "Approval_Required__c": true,
     "Name": "Volume Discount - Licenses",
     "SBQQ__AggregationScope__c": null,
     "SBQQ__ConstraintField__c": null,
@@ -17,7 +18,8 @@
     "SBQQ__QuoteLineQuantityField__c": "Quantity",
     "SBQQ__Type__c": "Range",
     "SBQQ__UsePriceForAmount__c": false,
-    "SBQQ__UserDefined__c": false
+    "SBQQ__UserDefined__c": false,
+    "Schedule_Category__c": "Volume"
   },
   "format": 1,
   "identity": "a0Gak00000oFTzNEAW",
