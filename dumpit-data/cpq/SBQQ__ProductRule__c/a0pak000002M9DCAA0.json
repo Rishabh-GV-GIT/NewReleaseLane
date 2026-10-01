@@ -1,0 +1,23 @@
+{
+  "fields": {
+    "Name": "Large License Quantity Review",
+    "SBQQ__Active__c": true,
+    "SBQQ__AdvancedCondition__c": null,
+    "SBQQ__ConditionsMet__c": "All",
+    "SBQQ__ErrorMessage__c": "Quotes with 100 or more licenses should be reviewed by Deal Desk.",
+    "SBQQ__EvaluationEvent__c": "Save",
+    "SBQQ__EvaluationOrder__c": null,
+    "SBQQ__LookupMessageField__c": null,
+    "SBQQ__LookupObject__c": null,
+    "SBQQ__LookupProductField__c": null,
+    "SBQQ__LookupRequiredField__c": null,
+    "SBQQ__LookupTypeField__c": null,
+    "SBQQ__Scope__c": "Quote",
+    "SBQQ__Type__c": "Alert"
+  },
+  "format": 1,
+  "identity": "a0pak000002M9DCAA0",
+  "identitySource": "field",
+  "name": "Large License Quantity Review",
+  "object": "SBQQ__ProductRule__c"
+}

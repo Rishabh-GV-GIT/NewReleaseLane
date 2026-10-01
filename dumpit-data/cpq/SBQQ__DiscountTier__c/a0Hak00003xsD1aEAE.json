@@ -1,0 +1,20 @@
+{
+  "fields": {
+    "Name": "Tier 2",
+    "SBQQ__DiscountAmount__c": null,
+    "SBQQ__Discount__c": 10,
+    "SBQQ__LowerBound__c": 10,
+    "SBQQ__Number__c": 2,
+    "SBQQ__Price__c": null,
+    "SBQQ__Schedule__c": {
+      "$ref": "SBQQ__DiscountSchedule__c",
+      "identity": "a0Gak00000oFTzNEAW"
+    },
+    "SBQQ__UpperBound__c": 50
+  },
+  "format": 1,
+  "identity": "a0Hak00003xsD1aEAE",
+  "identitySource": "field",
+  "name": "Tier 2",
+  "object": "SBQQ__DiscountTier__c"
+}
