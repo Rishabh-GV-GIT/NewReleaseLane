@@ -1,0 +1,22 @@
+{
+  "fields": {
+    "SBQQ__FilterType__c": "Value",
+    "SBQQ__FilterValue__c": "100",
+    "SBQQ__FilterVariable__c": null,
+    "SBQQ__Index__c": null,
+    "SBQQ__Operator__c": "greater or equals",
+    "SBQQ__Rule__c": {
+      "$ref": "SBQQ__ProductRule__c",
+      "identity": "a0pak000002M9DCAA0"
+    },
+    "SBQQ__TestedAttribute__c": null,
+    "SBQQ__TestedField__c": "SBQQ__Quantity__c",
+    "SBQQ__TestedObject__c": "Quote Line",
+    "SBQQ__TestedVariable__c": null
+  },
+  "format": 1,
+  "identity": "a0Iak000008Wxy2EAC",
+  "identitySource": "field",
+  "name": "000001",
+  "object": "SBQQ__ErrorCondition__c"
+}
