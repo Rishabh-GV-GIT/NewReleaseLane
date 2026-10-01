@@ -1,0 +1,20 @@
+{
+  "fields": {
+    "IsActive": true,
+    "Pricebook2Id": {
+      "$ref": "Pricebook2",
+      "identity": "standard"
+    },
+    "Product2Id": {
+      "$ref": "Product2",
+      "identity": "01tak00000WbTtVAAV"
+    },
+    "UnitPrice": 20000,
+    "UseStandardPrice": false
+  },
+  "format": 1,
+  "identity": "01uak000009UgMjAAK",
+  "identitySource": "field",
+  "name": "SLA: Silver",
+  "object": "PricebookEntry"
+}

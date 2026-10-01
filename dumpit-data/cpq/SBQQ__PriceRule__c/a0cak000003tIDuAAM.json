@@ -1,0 +1,19 @@
+{
+  "fields": {
+    "Name": "High Volume License Discount",
+    "SBQQ__Active__c": true,
+    "SBQQ__AdvancedCondition__c": null,
+    "SBQQ__ConditionsMet__c": "All",
+    "SBQQ__ConfiguratorEvaluationEvent__c": null,
+    "SBQQ__EvaluationEvent__c": "Calculator",
+    "SBQQ__EvaluationOrder__c": 20,
+    "SBQQ__LookupObject__c": null,
+    "SBQQ__Product__c": null,
+    "SBQQ__TargetObject__c": "Calculator"
+  },
+  "format": 1,
+  "identity": "a0cak000003tIDuAAM",
+  "identitySource": "field",
+  "name": "High Volume License Discount",
+  "object": "SBQQ__PriceRule__c"
+}
