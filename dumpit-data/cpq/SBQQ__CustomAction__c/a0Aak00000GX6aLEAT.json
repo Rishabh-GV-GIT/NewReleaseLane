@@ -1,0 +1,31 @@
+{
+  "fields": {
+    "Name": "Separator",
+    "SBQQ__Action__c": null,
+    "SBQQ__Active__c": true,
+    "SBQQ__BrandButton__c": false,
+    "SBQQ__Class__c": null,
+    "SBQQ__ConditionsMet__c": "All",
+    "SBQQ__Default__c": false,
+    "SBQQ__Description__c": null,
+    "SBQQ__DisplayOrder__c": 911,
+    "SBQQ__EventHandlerName__c": null,
+    "SBQQ__IconClass__c": "sbToolSeparator",
+    "SBQQ__Icon__c": null,
+    "SBQQ__Label__c": "Add Products",
+    "SBQQ__Location__c": "Quote",
+    "SBQQ__PageHandlerName__c": null,
+    "SBQQ__Page__c": "Quote Line Editor",
+    "SBQQ__ParentCustomAction__c": null,
+    "SBQQ__ReturnURL__c": null,
+    "SBQQ__TargetObject__c": null,
+    "SBQQ__Type__c": "Separator",
+    "SBQQ__URLTarget__c": null,
+    "SBQQ__URL__c": null
+  },
+  "format": 1,
+  "identity": "a0Aak00000GX6aLEAT",
+  "identitySource": "field",
+  "name": "Separator",
+  "object": "SBQQ__CustomAction__c"
+}

@@ -1,0 +1,20 @@
+{
+  "fields": {
+    "IsActive": true,
+    "Pricebook2Id": {
+      "$ref": "Pricebook2",
+      "identity": "01sak00000Mlei5AAB"
+    },
+    "Product2Id": {
+      "$ref": "Product2",
+      "identity": "01tak00000WbTthAAF"
+    },
+    "UnitPrice": 50000,
+    "UseStandardPrice": false
+  },
+  "format": 1,
+  "identity": "01uak000009UgMfAAK",
+  "identitySource": "field",
+  "name": "Installation: Industrial - Medium",
+  "object": "PricebookEntry"
+}

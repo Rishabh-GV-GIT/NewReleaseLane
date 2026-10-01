@@ -1,0 +1,23 @@
+{
+  "fields": {
+    "Name": "Platform",
+    "SBQQ__Category__c": null,
+    "SBQQ__ConfigurationFieldSet__c": null,
+    "SBQQ__ConfiguredSKU__c": {
+      "$ref": "Product2",
+      "identity": "01tak00000WzmWjAAJ"
+    },
+    "SBQQ__DiscountSchedule__c": null,
+    "SBQQ__DynamicProductFilterFieldSet__c": null,
+    "SBQQ__DynamicProductLookupFieldSet__c": null,
+    "SBQQ__MaxOptionCount__c": null,
+    "SBQQ__MinOptionCount__c": 1,
+    "SBQQ__Number__c": 1,
+    "SBQQ__OptionSelectionMethod__c": null
+  },
+  "format": 1,
+  "identity": "a0nak000001e1HlAAI",
+  "identitySource": "field",
+  "name": "Platform",
+  "object": "SBQQ__ProductFeature__c"
+}

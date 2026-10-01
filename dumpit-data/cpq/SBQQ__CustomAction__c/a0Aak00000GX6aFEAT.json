@@ -1,0 +1,31 @@
+{
+  "fields": {
+    "Name": "Add Group",
+    "SBQQ__Action__c": "Add Group",
+    "SBQQ__Active__c": true,
+    "SBQQ__BrandButton__c": false,
+    "SBQQ__Class__c": "addGroupBtn",
+    "SBQQ__ConditionsMet__c": "All",
+    "SBQQ__Default__c": false,
+    "SBQQ__Description__c": null,
+    "SBQQ__DisplayOrder__c": 905,
+    "SBQQ__EventHandlerName__c": "onAddGroup",
+    "SBQQ__IconClass__c": null,
+    "SBQQ__Icon__c": null,
+    "SBQQ__Label__c": "Add Group",
+    "SBQQ__Location__c": "Quote",
+    "SBQQ__PageHandlerName__c": null,
+    "SBQQ__Page__c": "Quote Line Editor",
+    "SBQQ__ParentCustomAction__c": null,
+    "SBQQ__ReturnURL__c": null,
+    "SBQQ__TargetObject__c": null,
+    "SBQQ__Type__c": "Menu",
+    "SBQQ__URLTarget__c": null,
+    "SBQQ__URL__c": null
+  },
+  "format": 1,
+  "identity": "a0Aak00000GX6aFEAT",
+  "identitySource": "field",
+  "name": "Add Group",
+  "object": "SBQQ__CustomAction__c"
+}
