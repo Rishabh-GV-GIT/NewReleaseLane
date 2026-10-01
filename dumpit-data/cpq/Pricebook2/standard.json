@@ -1,5 +1,6 @@
 {
   "fields": {
+    "CPQ_Test_Ext_Id__c": "STANDARD",
     "Description": null,
     "IsActive": false,
     "Name": "Standard Price Book"
