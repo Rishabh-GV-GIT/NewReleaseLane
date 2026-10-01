@@ -1,0 +1,13 @@
+{
+  "fields": {
+    "CPQ_Test_Ext_Id__c": "PB-PART",
+    "Description": null,
+    "IsActive": true,
+    "Name": "CPQ Test Partner"
+  },
+  "format": 1,
+  "identity": "01sak00000N2UMYAA3",
+  "identitySource": "field",
+  "name": "CPQ Test Partner",
+  "object": "Pricebook2"
+}
