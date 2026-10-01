@@ -1,0 +1,31 @@
+{
+  "fields": {
+    "Name": "Desegment Line",
+    "SBQQ__Action__c": "Desegment Line",
+    "SBQQ__Active__c": true,
+    "SBQQ__BrandButton__c": false,
+    "SBQQ__Class__c": "desegmentBtn",
+    "SBQQ__ConditionsMet__c": "All",
+    "SBQQ__Default__c": false,
+    "SBQQ__Description__c": null,
+    "SBQQ__DisplayOrder__c": 995,
+    "SBQQ__EventHandlerName__c": "onDesegmentLine",
+    "SBQQ__IconClass__c": "sf-icon-magicwand",
+    "SBQQ__Icon__c": "magicwand",
+    "SBQQ__Label__c": "Desegment Line",
+    "SBQQ__Location__c": "Line",
+    "SBQQ__PageHandlerName__c": null,
+    "SBQQ__Page__c": "Quote Line Editor",
+    "SBQQ__ParentCustomAction__c": null,
+    "SBQQ__ReturnURL__c": null,
+    "SBQQ__TargetObject__c": null,
+    "SBQQ__Type__c": "Button",
+    "SBQQ__URLTarget__c": null,
+    "SBQQ__URL__c": null
+  },
+  "format": 1,
+  "identity": "a0Aak00000GX6abEAD",
+  "identitySource": "field",
+  "name": "Desegment Line",
+  "object": "SBQQ__CustomAction__c"
+}
