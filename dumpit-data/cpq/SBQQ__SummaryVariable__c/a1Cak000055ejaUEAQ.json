@@ -1,0 +1,22 @@
+{
+  "fields": {
+    "CPQ_Test_Ext_Id__c": "SV-LINE-COUNT",
+    "Name": "CPQ Test Line Count",
+    "SBQQ__AggregateField__c": "Quantity",
+    "SBQQ__AggregateFunction__c": "Count",
+    "SBQQ__CombineWith__c": null,
+    "SBQQ__CompositeOperator__c": null,
+    "SBQQ__ConstraintField__c": null,
+    "SBQQ__FilterField__c": null,
+    "SBQQ__FilterValue__c": null,
+    "SBQQ__Operator__c": null,
+    "SBQQ__Scope__c": "Quote",
+    "SBQQ__TargetObject__c": "Quote",
+    "SBQQ__ValueElement__c": null
+  },
+  "format": 1,
+  "identity": "a1Cak000055ejaUEAQ",
+  "identitySource": "field",
+  "name": "CPQ Test Line Count",
+  "object": "SBQQ__SummaryVariable__c"
+}
