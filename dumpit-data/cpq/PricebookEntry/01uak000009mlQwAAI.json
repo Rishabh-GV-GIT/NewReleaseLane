@@ -1,0 +1,21 @@
+{
+  "fields": {
+    "CPQ_Test_Ext_Id__c": "PBE-STD-ADDON-API",
+    "IsActive": true,
+    "Pricebook2Id": {
+      "$ref": "Pricebook2",
+      "identity": "standard"
+    },
+    "Product2Id": {
+      "$ref": "Product2",
+      "identity": "01tak00000X8jrSAAR"
+    },
+    "UnitPrice": 400,
+    "UseStandardPrice": false
+  },
+  "format": 1,
+  "identity": "01uak000009mlQwAAI",
+  "identitySource": "field",
+  "name": "CPQ Test API Access Add-on",
+  "object": "PricebookEntry"
+}
