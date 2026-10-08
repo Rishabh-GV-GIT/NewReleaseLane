@@ -1,0 +1,25 @@
+{
+  "fields": {
+    "SBQQ__FilterField__c": null,
+    "SBQQ__FilterValue__c": null,
+    "SBQQ__Operator__c": null,
+    "SBQQ__Product__c": {
+      "$ref": "Product2",
+      "identity": "01tak00000X8t9CAAR"
+    },
+    "SBQQ__Required__c": false,
+    "SBQQ__Rule__c": {
+      "$ref": "SBQQ__ProductRule__c",
+      "identity": "a0pak000002OoYnAAK"
+    },
+    "SBQQ__Type__c": "Add",
+    "SBQQ__ValueAttribute__c": null,
+    "SBQQ__ValueField__c": null,
+    "SBQQ__ValueObject__c": null
+  },
+  "format": 1,
+  "identity": "DUMP-PRODUCT-ACTION-2",
+  "identitySource": "field",
+  "name": "PA-0000001",
+  "object": "SBQQ__ProductAction__c"
+}

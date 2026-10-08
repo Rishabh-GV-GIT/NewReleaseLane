@@ -1,0 +1,13 @@
+{
+  "fields": {
+    "CPQ_Test_Ext_Id__c": "PB-ENT",
+    "Description": null,
+    "IsActive": true,
+    "Name": "CPQ Test Enterprise"
+  },
+  "format": 1,
+  "identity": "01sak00000N2UMXAA3",
+  "identitySource": "field",
+  "name": "CPQ Test Enterprise",
+  "object": "Pricebook2"
+}

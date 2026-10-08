@@ -1,0 +1,21 @@
+{
+  "fields": {
+    "CPQ_Test_Ext_Id__c": "PBE-STD-P004",
+    "IsActive": true,
+    "Pricebook2Id": {
+      "$ref": "Pricebook2",
+      "identity": "standard"
+    },
+    "Product2Id": {
+      "$ref": "Product2",
+      "identity": "01tak00000WzusWAAR"
+    },
+    "UnitPrice": 75,
+    "UseStandardPrice": false
+  },
+  "format": 1,
+  "identity": "01uak000009iy9nAAA",
+  "identitySource": "field",
+  "name": "CPQ Test Renamed",
+  "object": "PricebookEntry"
+}

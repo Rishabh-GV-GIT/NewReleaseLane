@@ -1,0 +1,21 @@
+{
+  "fields": {
+    "CPQ_Test_Ext_Id__c": "DT-VOL-PCT-3",
+    "Name": "a0Hak000046PQcx",
+    "SBQQ__DiscountAmount__c": null,
+    "SBQQ__Discount__c": 10,
+    "SBQQ__LowerBound__c": 50,
+    "SBQQ__Number__c": 3,
+    "SBQQ__Price__c": null,
+    "SBQQ__Schedule__c": {
+      "$ref": "SBQQ__DiscountSchedule__c",
+      "identity": "a0Gak00000p7W85EAE"
+    },
+    "SBQQ__UpperBound__c": 100
+  },
+  "format": 1,
+  "identity": "a0Hak000046PQcxEAG",
+  "identitySource": "field",
+  "name": "a0Hak000046PQcx",
+  "object": "SBQQ__DiscountTier__c"
+}
