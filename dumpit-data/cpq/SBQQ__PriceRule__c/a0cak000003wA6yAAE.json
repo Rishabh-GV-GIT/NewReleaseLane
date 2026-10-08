@@ -1,0 +1,22 @@
+{
+  "fields": {
+    "CPQ_Test_Ext_Id__c": "PR-LARGE-DEAL",
+    "Last_Reviewed__c": null,
+    "Name": "CPQ Test Large Deal Discount",
+    "Rule_Owner__c": null,
+    "SBQQ__Active__c": true,
+    "SBQQ__AdvancedCondition__c": null,
+    "SBQQ__ConditionsMet__c": "All",
+    "SBQQ__ConfiguratorEvaluationEvent__c": null,
+    "SBQQ__EvaluationEvent__c": "On Calculate",
+    "SBQQ__EvaluationOrder__c": 10,
+    "SBQQ__LookupObject__c": null,
+    "SBQQ__Product__c": null,
+    "SBQQ__TargetObject__c": "Calculator"
+  },
+  "format": 1,
+  "identity": "a0cak000003wA6yAAE",
+  "identitySource": "field",
+  "name": "CPQ Test Large Deal Discount",
+  "object": "SBQQ__PriceRule__c"
+}

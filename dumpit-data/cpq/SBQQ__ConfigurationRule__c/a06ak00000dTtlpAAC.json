@@ -1,0 +1,22 @@
+{
+  "fields": {
+    "SBQQ__Active__c": true,
+    "SBQQ__AscendingNestedLevel__c": null,
+    "SBQQ__DescendingActionNesting__c": null,
+    "SBQQ__DescendingNestedLevel__c": null,
+    "SBQQ__ProductFeature__c": null,
+    "SBQQ__ProductRule__c": {
+      "$ref": "SBQQ__ProductRule__c",
+      "identity": "a0pak000002OoKHAA0"
+    },
+    "SBQQ__Product__c": {
+      "$ref": "Product2",
+      "identity": "01tak00000X8t9BAAR"
+    }
+  },
+  "format": 1,
+  "identity": "a06ak00000dTtlpAAC",
+  "identitySource": "field",
+  "name": "CR-000000",
+  "object": "SBQQ__ConfigurationRule__c"
+}

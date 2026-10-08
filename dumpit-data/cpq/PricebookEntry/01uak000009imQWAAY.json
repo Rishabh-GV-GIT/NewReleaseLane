@@ -1,0 +1,20 @@
+{
+  "fields": {
+    "IsActive": true,
+    "Pricebook2Id": {
+      "$ref": "Pricebook2",
+      "identity": "01sak00000N2U6PAAV"
+    },
+    "Product2Id": {
+      "$ref": "Product2",
+      "identity": "01tak00000WzmWoAAJ"
+    },
+    "UnitPrice": 800,
+    "UseStandardPrice": false
+  },
+  "format": 1,
+  "identity": "01uak000009imQWAAY",
+  "identitySource": "field",
+  "name": "Admin Training",
+  "object": "PricebookEntry"
+}
