@@ -1,6 +1,8 @@
 {
   "fields": {
+    "Last_Reviewed__c": "2026-09-01",
     "Name": "Onboarding Promo Discount",
+    "Rule_Owner__c": "Pricing Team",
     "SBQQ__Active__c": true,
     "SBQQ__AdvancedCondition__c": null,
     "SBQQ__ConditionsMet__c": "All",

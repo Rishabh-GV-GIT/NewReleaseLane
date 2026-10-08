@@ -1,5 +1,7 @@
 {
   "fields": {
+    "Option_Category__c": "Service",
+    "Recommended__c": false,
     "SBQQ__AppliedImmediatelyContext__c": null,
     "SBQQ__AppliedImmediately__c": false,
     "SBQQ__Bundled__c": false,

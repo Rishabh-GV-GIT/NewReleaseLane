@@ -1,12 +1,15 @@
 {
   "fields": {
+    "CPQ_Test_Ext_Id__c": null,
     "Description": "Per-user annual platform license",
     "DisplayUrl": null,
     "ExternalId": null,
     "Family": "Software",
     "IsActive": true,
+    "Launch_Date__c": "2025-01-15",
     "Name": "Platform User License",
     "ProductCode": "SAMPLE-LIC",
+    "Product_Tier__c": "Standard",
     "QuantityUnitOfMeasure": null,
     "SBQQ__AssetAmendmentBehavior__c": "Default",
     "SBQQ__AssetConversion__c": "One per quote line",
