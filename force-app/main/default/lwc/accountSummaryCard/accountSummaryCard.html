@@ -1,0 +1,15 @@
+<template>
+    <lightning-card title={labels.title} icon-name="standard:account">
+        <template lwc:if={summary}>
+            <div class="summary slds-p-around_medium">
+                <p class="name">{summary.name}</p>
+                <p>{labels.industry}: {industryText}</p>
+                <p>{labels.revenue}: {revenueText}</p>
+                <p>{labels.contacts}: {summary.contactCount}</p>
+            </div>
+        </template>
+        <template lwc:elseif={hasError}>
+            <p class="slds-p-around_medium error">{labels.error}</p>
+        </template>
+    </lightning-card>
+</template>

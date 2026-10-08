@@ -3,7 +3,7 @@
  * Reads Discount_Tier__mdt and returns the discount of the highest active
  * tier whose Min_Amount__c is <= the amount. No SOQL/DML, so it is bulk-safe.
  */
-public with sharing class DiscountCalculator {
+public without sharing class DiscountCalculator {
 
     public class Request {
         @InvocableVariable(label='Amount' required=true)
