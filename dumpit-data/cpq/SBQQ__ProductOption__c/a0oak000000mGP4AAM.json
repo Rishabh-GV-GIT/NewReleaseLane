@@ -1,0 +1,50 @@
+{
+  "fields": {
+    "Option_Category__c": "Add-on",
+    "Recommended__c": true,
+    "SBQQ__AppliedImmediatelyContext__c": null,
+    "SBQQ__AppliedImmediately__c": false,
+    "SBQQ__Bundled__c": false,
+    "SBQQ__ComponentCodePosition__c": null,
+    "SBQQ__ComponentCode__c": null,
+    "SBQQ__ComponentDescriptionPosition__c": null,
+    "SBQQ__ComponentDescription__c": null,
+    "SBQQ__ConfiguredSKU__c": {
+      "$ref": "Product2",
+      "identity": "01tak00000WzmWjAAJ"
+    },
+    "SBQQ__DefaultPricingTable__c": null,
+    "SBQQ__DiscountAmount__c": null,
+    "SBQQ__DiscountSchedule__c": null,
+    "SBQQ__Discount__c": null,
+    "SBQQ__DiscountedByPackage__c": false,
+    "SBQQ__ExistingQuantity__c": null,
+    "SBQQ__Feature__c": {
+      "$ref": "SBQQ__ProductFeature__c",
+      "identity": "a0nak000001e1HlAAI"
+    },
+    "SBQQ__MaxQuantity__c": null,
+    "SBQQ__MinQuantity__c": null,
+    "SBQQ__Number__c": 20,
+    "SBQQ__OptionalSKU__c": {
+      "$ref": "Product2",
+      "identity": "01tak00000WzmWlAAJ"
+    },
+    "SBQQ__QuantityEditable__c": false,
+    "SBQQ__Quantity__c": 1,
+    "SBQQ__QuoteLineVisibility__c": null,
+    "SBQQ__RenewalProductOption__c": null,
+    "SBQQ__Required__c": false,
+    "SBQQ__Selected__c": true,
+    "SBQQ__SubscriptionScope__c": null,
+    "SBQQ__System__c": false,
+    "SBQQ__Type__c": "Component",
+    "SBQQ__UnitPrice__c": null,
+    "SBQQ__UpliftedByPackage__c": false
+  },
+  "format": 1,
+  "identity": "a0oak000000mGP4AAM",
+  "identitySource": "field",
+  "name": "Premium Support",
+  "object": "SBQQ__ProductOption__c"
+}

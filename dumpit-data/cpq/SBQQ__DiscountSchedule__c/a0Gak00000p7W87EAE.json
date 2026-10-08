@@ -1,0 +1,30 @@
+{
+  "fields": {
+    "Approval_Required__c": false,
+    "CPQ_Test_Ext_Id__c": "DS-PARTNER",
+    "Name": "CPQ Test Partner Tiers",
+    "SBQQ__AggregationScope__c": null,
+    "SBQQ__ConstraintField__c": null,
+    "SBQQ__CrossOrders__c": false,
+    "SBQQ__CrossProducts__c": false,
+    "SBQQ__Description__c": null,
+    "SBQQ__DiscountUnit__c": "Percent",
+    "SBQQ__ExcludedPricebookIds__c": null,
+    "SBQQ__IncludeBundledProducts__c": false,
+    "SBQQ__OriginalDiscountSchedule__c": null,
+    "SBQQ__OverrideBehavior__c": null,
+    "SBQQ__PriceScale__c": 2,
+    "SBQQ__Pricebook__c": null,
+    "SBQQ__Product__c": null,
+    "SBQQ__QuoteLineQuantityField__c": "Quantity",
+    "SBQQ__Type__c": "Range",
+    "SBQQ__UsePriceForAmount__c": false,
+    "SBQQ__UserDefined__c": false,
+    "Schedule_Category__c": null
+  },
+  "format": 1,
+  "identity": "a0Gak00000p7W87EAE",
+  "identitySource": "field",
+  "name": "CPQ Test Partner Tiers",
+  "object": "SBQQ__DiscountSchedule__c"
+}

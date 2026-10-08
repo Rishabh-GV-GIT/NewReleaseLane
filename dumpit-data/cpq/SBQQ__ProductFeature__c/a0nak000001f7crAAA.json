@@ -1,0 +1,24 @@
+{
+  "fields": {
+    "CPQ_Test_Ext_Id__c": "F-PLATFORM",
+    "Name": "Platform",
+    "SBQQ__Category__c": null,
+    "SBQQ__ConfigurationFieldSet__c": null,
+    "SBQQ__ConfiguredSKU__c": {
+      "$ref": "Product2",
+      "identity": "01tak00000X8jrNAAR"
+    },
+    "SBQQ__DiscountSchedule__c": null,
+    "SBQQ__DynamicProductFilterFieldSet__c": null,
+    "SBQQ__DynamicProductLookupFieldSet__c": null,
+    "SBQQ__MaxOptionCount__c": 2,
+    "SBQQ__MinOptionCount__c": 1,
+    "SBQQ__Number__c": 1,
+    "SBQQ__OptionSelectionMethod__c": null
+  },
+  "format": 1,
+  "identity": "a0nak000001f7crAAA",
+  "identitySource": "field",
+  "name": "Platform",
+  "object": "SBQQ__ProductFeature__c"
+}
