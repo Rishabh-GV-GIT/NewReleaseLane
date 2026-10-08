@@ -1,0 +1,34 @@
+{
+  "fields": {
+    "Name": "Reset Discounts - Group",
+    "SBQQ__Action__c": "Reset Discounts",
+    "SBQQ__Active__c": true,
+    "SBQQ__BrandButton__c": false,
+    "SBQQ__Class__c": "resetDiscBtn",
+    "SBQQ__ConditionsMet__c": "All",
+    "SBQQ__Default__c": false,
+    "SBQQ__Description__c": null,
+    "SBQQ__DisplayOrder__c": 954,
+    "SBQQ__EventHandlerName__c": "onResetDiscounts",
+    "SBQQ__IconClass__c": null,
+    "SBQQ__Icon__c": null,
+    "SBQQ__Label__c": "Reset Discounts",
+    "SBQQ__Location__c": "Group",
+    "SBQQ__PageHandlerName__c": null,
+    "SBQQ__Page__c": "Quote Line Editor",
+    "SBQQ__ParentCustomAction__c": {
+      "$ref": "SBQQ__CustomAction__c",
+      "identity": "a0Aak00000GX6aAEAT"
+    },
+    "SBQQ__ReturnURL__c": null,
+    "SBQQ__TargetObject__c": null,
+    "SBQQ__Type__c": "Button",
+    "SBQQ__URLTarget__c": null,
+    "SBQQ__URL__c": null
+  },
+  "format": 1,
+  "identity": "a0Aak00000GX6aVEAT",
+  "identitySource": "field",
+  "name": "Reset Discounts - Group",
+  "object": "SBQQ__CustomAction__c"
+}

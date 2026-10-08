@@ -1,0 +1,20 @@
+{
+  "fields": {
+    "IsActive": true,
+    "Pricebook2Id": {
+      "$ref": "Pricebook2",
+      "identity": "01sak00000Mlei5AAB"
+    },
+    "Product2Id": {
+      "$ref": "Product2",
+      "identity": "01tak00000WbTtYAAV"
+    },
+    "UnitPrice": 15000,
+    "UseStandardPrice": false
+  },
+  "format": 1,
+  "identity": "01uak000009UgMVAA0",
+  "identitySource": "field",
+  "name": "GenWatt Propane 100kW",
+  "object": "PricebookEntry"
+}

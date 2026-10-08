@@ -1,0 +1,12 @@
+{
+  "fields": {
+    "Description": "Sample pricebook for CPQ demo data",
+    "IsActive": true,
+    "Name": "CPQ Sample Pricebook"
+  },
+  "format": 1,
+  "identity": "01sak00000N2U6PAAV",
+  "identitySource": "field",
+  "name": "CPQ Sample Pricebook",
+  "object": "Pricebook2"
+}
