@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CPQ_Test_Reason_Required_On_Denied</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(ISPICKVAL(SBQQ__Status__c, &quot;Denied&quot;), ISBLANK(CPQ_Test_Reason__c))</errorConditionFormula>
+    <errorDisplayField>CPQ_Test_Reason__c</errorDisplayField>
+    <errorMessage>Enter a reason when a quote is denied.</errorMessage>
+</ValidationRule>
