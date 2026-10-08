@@ -1,0 +1,27 @@
+{
+  "fields": {
+    "CPQ_Test_Ext_Id__c": null,
+    "Last_Reviewed__c": null,
+    "Name": "DumpIt Test Product Rule 2",
+    "Rule_Category__c": null,
+    "SBQQ_ConfiguredSKU__c": null,
+    "SBQQ__Active__c": true,
+    "SBQQ__AdvancedCondition__c": null,
+    "SBQQ__ConditionsMet__c": "All",
+    "SBQQ__ErrorMessage__c": "DumpIt Test Product Rule 2 validation message",
+    "SBQQ__EvaluationEvent__c": "Always",
+    "SBQQ__EvaluationOrder__c": null,
+    "SBQQ__LookupMessageField__c": null,
+    "SBQQ__LookupObject__c": null,
+    "SBQQ__LookupProductField__c": null,
+    "SBQQ__LookupRequiredField__c": null,
+    "SBQQ__LookupTypeField__c": null,
+    "SBQQ__Scope__c": "Product",
+    "SBQQ__Type__c": "Validation"
+  },
+  "format": 1,
+  "identity": "a0pak000002OoYnAAK",
+  "identitySource": "field",
+  "name": "DumpIt Test Product Rule 2",
+  "object": "SBQQ__ProductRule__c"
+}
