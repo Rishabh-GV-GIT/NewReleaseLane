@@ -1,0 +1,25 @@
+{
+  "fields": {
+    "Last_Reviewed__c": "2026-09-01",
+    "Name": "Minimum 12 Month Term",
+    "Rule_Category__c": "Validation",
+    "SBQQ__Active__c": true,
+    "SBQQ__AdvancedCondition__c": null,
+    "SBQQ__ConditionsMet__c": "All",
+    "SBQQ__ErrorMessage__c": "Subscription term must be at least 12 months.",
+    "SBQQ__EvaluationEvent__c": "Save",
+    "SBQQ__EvaluationOrder__c": null,
+    "SBQQ__LookupMessageField__c": null,
+    "SBQQ__LookupObject__c": null,
+    "SBQQ__LookupProductField__c": null,
+    "SBQQ__LookupRequiredField__c": null,
+    "SBQQ__LookupTypeField__c": null,
+    "SBQQ__Scope__c": "Quote",
+    "SBQQ__Type__c": "Validation"
+  },
+  "format": 1,
+  "identity": "a0pak000002M9DBAA0",
+  "identitySource": "field",
+  "name": "Minimum 12 Month Term",
+  "object": "SBQQ__ProductRule__c"
+}

@@ -1,0 +1,13 @@
+{
+  "fields": {
+    "CPQ_Test_Ext_Id__c": null,
+    "Description": null,
+    "IsActive": true,
+    "Name": "DumpIt Test Price Book"
+  },
+  "format": 1,
+  "identity": "01sak00000N2e5lAAB",
+  "identitySource": "field",
+  "name": "DumpIt Test Price Book",
+  "object": "Pricebook2"
+}

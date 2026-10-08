@@ -1,0 +1,31 @@
+{
+  "fields": {
+    "Name": "Apply Edit Rules",
+    "SBQQ__Action__c": "Apply Edit Rules",
+    "SBQQ__Active__c": true,
+    "SBQQ__BrandButton__c": false,
+    "SBQQ__Class__c": null,
+    "SBQQ__ConditionsMet__c": "All",
+    "SBQQ__Default__c": false,
+    "SBQQ__Description__c": null,
+    "SBQQ__DisplayOrder__c": 901,
+    "SBQQ__EventHandlerName__c": null,
+    "SBQQ__IconClass__c": null,
+    "SBQQ__Icon__c": null,
+    "SBQQ__Label__c": "Apply Rules",
+    "SBQQ__Location__c": "Configurator",
+    "SBQQ__PageHandlerName__c": null,
+    "SBQQ__Page__c": "Product Configurator",
+    "SBQQ__ParentCustomAction__c": null,
+    "SBQQ__ReturnURL__c": null,
+    "SBQQ__TargetObject__c": null,
+    "SBQQ__Type__c": "Button",
+    "SBQQ__URLTarget__c": null,
+    "SBQQ__URL__c": null
+  },
+  "format": 1,
+  "identity": "a0Aak00000GX6aiEAD",
+  "identitySource": "field",
+  "name": "Apply Edit Rules",
+  "object": "SBQQ__CustomAction__c"
+}

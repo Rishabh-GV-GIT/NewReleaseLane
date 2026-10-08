@@ -1,0 +1,21 @@
+{
+  "fields": {
+    "SBQQ__Field__c": "SBQQ__Discount__c",
+    "SBQQ__Formula__c": null,
+    "SBQQ__Order__c": 1,
+    "SBQQ__Rule__c": {
+      "$ref": "SBQQ__PriceRule__c",
+      "identity": "a0cak000003tIDuAAM"
+    },
+    "SBQQ__SourceLookupField__c": null,
+    "SBQQ__SourceVariable__c": null,
+    "SBQQ__TargetObject__c": "Quote Line",
+    "SBQQ__ValueField__c": null,
+    "SBQQ__Value__c": "5"
+  },
+  "format": 1,
+  "identity": "a0aak00000SffDbAAJ",
+  "identitySource": "field",
+  "name": "1",
+  "object": "SBQQ__PriceAction__c"
+}
