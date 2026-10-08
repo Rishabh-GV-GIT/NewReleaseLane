@@ -1,0 +1,21 @@
+{
+  "fields": {
+    "CPQ_Test_Ext_Id__c": "DT-VOL-AMT-1",
+    "Name": "a0Hak000046PQcz",
+    "SBQQ__DiscountAmount__c": null,
+    "SBQQ__Discount__c": 0,
+    "SBQQ__LowerBound__c": 1,
+    "SBQQ__Number__c": 1,
+    "SBQQ__Price__c": null,
+    "SBQQ__Schedule__c": {
+      "$ref": "SBQQ__DiscountSchedule__c",
+      "identity": "a0Gak00000p7W86EAE"
+    },
+    "SBQQ__UpperBound__c": 25
+  },
+  "format": 1,
+  "identity": "a0Hak000046PQczEAG",
+  "identitySource": "field",
+  "name": "a0Hak000046PQcz",
+  "object": "SBQQ__DiscountTier__c"
+}
