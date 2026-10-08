@@ -1,0 +1,12 @@
+{
+  "fields": {
+    "Description": null,
+    "IsActive": false,
+    "Name": "Standard Price Book"
+  },
+  "format": 1,
+  "identity": "standard",
+  "identitySource": "standard",
+  "name": "Standard Price Book",
+  "object": "Pricebook2"
+}

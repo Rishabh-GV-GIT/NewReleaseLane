@@ -1,0 +1,20 @@
+{
+  "fields": {
+    "IsActive": true,
+    "Pricebook2Id": {
+      "$ref": "Pricebook2",
+      "identity": "standard"
+    },
+    "Product2Id": {
+      "$ref": "Product2",
+      "identity": "01tak00000WbTtWAAV"
+    },
+    "UnitPrice": 50000,
+    "UseStandardPrice": false
+  },
+  "format": 1,
+  "identity": "01uak000009UgMkAAK",
+  "identitySource": "field",
+  "name": "GenWatt Propane 500kW",
+  "object": "PricebookEntry"
+}
