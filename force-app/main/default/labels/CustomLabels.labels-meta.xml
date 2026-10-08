@@ -1,43 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
     <labels>
-        <fullName>Acct_Summary_Contacts</fullName>
-        <categories>AccountSummary</categories>
+        <fullName>DumpIt_Test_Label</fullName>
         <language>en_US</language>
         <protected>false</protected>
-        <shortDescription>Acct Summary Contacts</shortDescription>
-        <value>Contacts</value>
+        <shortDescription>DumpIt Test Label</shortDescription>
+        <value>This is a DumpIt custom label test.</value>
     </labels>
     <labels>
-        <fullName>Acct_Summary_Error</fullName>
-        <categories>AccountSummary</categories>
+        <fullName>DumpIt_Test_Label_Long_Text</fullName>
         <language>en_US</language>
         <protected>false</protected>
-        <shortDescription>Acct Summary Error</shortDescription>
-        <value>We could not load this account summary.</value>
+        <shortDescription>DumpIt Long Text Label Test</shortDescription>
+        <value>This is a longer custom label value for testing DumpIt comparison, modification, and deployment behavior.</value>
     </labels>
     <labels>
-        <fullName>Acct_Summary_Industry</fullName>
-        <categories>AccountSummary</categories>
+        <fullName>DumpIt_Test_Label_Unicode</fullName>
         <language>en_US</language>
         <protected>false</protected>
-        <shortDescription>Acct Summary Industry</shortDescription>
-        <value>Industry</value>
-    </labels>
-    <labels>
-        <fullName>Acct_Summary_Revenue</fullName>
-        <categories>AccountSummary</categories>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>Acct Summary Revenue</shortDescription>
-        <value>Revenue &amp; Size</value>
-    </labels>
-    <labels>
-        <fullName>Acct_Summary_Title</fullName>
-        <categories>AccountSummary</categories>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>Acct Summary Title</shortDescription>
-        <value>Account Summary</value>
+        <shortDescription>DumpIt Unicode Label Test</shortDescription>
+        <value>Test label — café — 日本語 — ₹</value>
     </labels>
 </CustomLabels>

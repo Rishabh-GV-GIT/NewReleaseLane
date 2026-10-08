@@ -1,0 +1,31 @@
+{
+  "fields": {
+    "Name": "Cancel",
+    "SBQQ__Action__c": "Cancel",
+    "SBQQ__Active__c": true,
+    "SBQQ__BrandButton__c": false,
+    "SBQQ__Class__c": "cancelBtn",
+    "SBQQ__ConditionsMet__c": "All",
+    "SBQQ__Default__c": false,
+    "SBQQ__Description__c": null,
+    "SBQQ__DisplayOrder__c": 915,
+    "SBQQ__EventHandlerName__c": "onCancel",
+    "SBQQ__IconClass__c": null,
+    "SBQQ__Icon__c": null,
+    "SBQQ__Label__c": "Cancel",
+    "SBQQ__Location__c": "Quote",
+    "SBQQ__PageHandlerName__c": null,
+    "SBQQ__Page__c": "Quote Line Editor",
+    "SBQQ__ParentCustomAction__c": null,
+    "SBQQ__ReturnURL__c": null,
+    "SBQQ__TargetObject__c": null,
+    "SBQQ__Type__c": "Button",
+    "SBQQ__URLTarget__c": null,
+    "SBQQ__URL__c": null
+  },
+  "format": 1,
+  "identity": "a0Aak00000GX6aPEAT",
+  "identitySource": "field",
+  "name": "Cancel",
+  "object": "SBQQ__CustomAction__c"
+}
