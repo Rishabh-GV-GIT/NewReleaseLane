@@ -2,7 +2,7 @@
   "fields": {
     "CPQ_Test_Ext_Id__c": "STANDARD",
     "Description": null,
-    "IsActive": true,
+    "IsActive": false,
     "Name": "Standard Price Book"
   },
   "format": 1,
