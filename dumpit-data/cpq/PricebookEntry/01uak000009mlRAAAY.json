@@ -1,0 +1,21 @@
+{
+  "fields": {
+    "CPQ_Test_Ext_Id__c": "PBE-ENT-SERVICES-IMPL",
+    "IsActive": true,
+    "Pricebook2Id": {
+      "$ref": "Pricebook2",
+      "identity": "01sak00000N2UMXAA3"
+    },
+    "Product2Id": {
+      "$ref": "Product2",
+      "identity": "01tak00000X8jrUAAR"
+    },
+    "UnitPrice": 12000,
+    "UseStandardPrice": false
+  },
+  "format": 1,
+  "identity": "01uak000009mlRAAAY",
+  "identitySource": "field",
+  "name": "CPQ Test Implementation Services",
+  "object": "PricebookEntry"
+}

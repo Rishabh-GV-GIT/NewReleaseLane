@@ -1,0 +1,22 @@
+{
+  "fields": {
+    "CPQ_Test_Ext_Id__c": "PR-RETIRED",
+    "Last_Reviewed__c": null,
+    "Name": "CPQ Test Retired Rule",
+    "Rule_Owner__c": null,
+    "SBQQ__Active__c": false,
+    "SBQQ__AdvancedCondition__c": null,
+    "SBQQ__ConditionsMet__c": "All",
+    "SBQQ__ConfiguratorEvaluationEvent__c": null,
+    "SBQQ__EvaluationEvent__c": "After Calculate",
+    "SBQQ__EvaluationOrder__c": 30,
+    "SBQQ__LookupObject__c": null,
+    "SBQQ__Product__c": null,
+    "SBQQ__TargetObject__c": "Calculator"
+  },
+  "format": 1,
+  "identity": "a0cak000003wA70AAE",
+  "identitySource": "field",
+  "name": "CPQ Test Retired Rule",
+  "object": "SBQQ__PriceRule__c"
+}
